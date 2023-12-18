@@ -1,0 +1,2 @@
+C:\Users\maxpi\Documents\GitHub\TechDemo4\TechDemo4proj\Intermediate\Build\Win64\UE4Editor\Development\TechDemo4proj\Definitions.TechDemo4proj.h
+C:\Users\maxpi\Documents\GitHub\TechDemo4\TechDemo4proj\Source\TechDemo4proj\TechDemo4proj.h

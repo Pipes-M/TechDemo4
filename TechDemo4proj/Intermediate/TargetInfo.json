@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "TechDemo4proj",
+			"Path": "C:\\Users\\maxpi\\Documents\\GitHub\\TechDemo4\\TechDemo4proj\\Source\\TechDemo4proj.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "TechDemo4projEditor",
+			"Path": "C:\\Users\\maxpi\\Documents\\GitHub\\TechDemo4\\TechDemo4proj\\Source\\TechDemo4projEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
