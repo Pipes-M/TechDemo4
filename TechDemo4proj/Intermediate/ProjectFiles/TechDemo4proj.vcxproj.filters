@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\TechDemo4proj.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{E1FF4F77-2C8C-4CE8-A897-EF8523C606CB}</UniqueIdentifier>
+      <UniqueIdentifier>{4D02A7B4-88D8-4289-AFF4-71ADBA150FA2}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\TechDemo4proj.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{F935B85C-A741-488C-BEF2-CE096CB9ACDA}</UniqueIdentifier>
+      <UniqueIdentifier>{1FCD128C-6C38-4B31-AC33-9F11B2F62E95}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -23,9 +23,24 @@
     <None Include="..\..\Config\DefaultGame.ini">
       <Filter>Config</Filter>
     </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
     <Filter Include="Source\TechDemo4proj">
-      <UniqueIdentifier>{5F8CFC27-8FB7-4A75-8886-E8EA7781A8F4}</UniqueIdentifier>
+      <UniqueIdentifier>{6DAEF5AC-B9AF-4A5A-8E31-820FCD64240E}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\TechDemo4proj\MyAnimInstance.cpp">
+      <Filter>Source\TechDemo4proj</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TechDemo4proj\MyAnimInstance.h">
+      <Filter>Source\TechDemo4proj</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TechDemo4proj\PlayerCharacter.cpp">
+      <Filter>Source\TechDemo4proj</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TechDemo4proj\PlayerCharacter.h">
+      <Filter>Source\TechDemo4proj</Filter>
+    </ClInclude>
     <None Include="..\..\Source\TechDemo4proj\TechDemo4proj.Build.cs">
       <Filter>Source\TechDemo4proj</Filter>
     </None>

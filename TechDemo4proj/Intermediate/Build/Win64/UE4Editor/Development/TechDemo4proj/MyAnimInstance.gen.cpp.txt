@@ -1,0 +1,5 @@
+C:\Users\maxpi\Documents\GitHub\TechDemo4\TechDemo4proj\Intermediate\Build\Win64\UE4Editor\Development\TechDemo4proj\Definitions.TechDemo4proj.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+C:\Users\maxpi\Documents\GitHub\TechDemo4\TechDemo4proj\Source\TechDemo4proj/MyAnimInstance.h
+C:\Users\maxpi\Documents\GitHub\TechDemo4\TechDemo4proj\Intermediate\Build\Win64\UE4Editor\Inc\TechDemo4proj\MyAnimInstance.generated.h

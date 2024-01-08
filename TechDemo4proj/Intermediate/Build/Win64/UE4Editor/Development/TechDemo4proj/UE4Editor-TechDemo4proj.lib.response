@@ -7,8 +7,12 @@
 /IGNORE:4221
 /NODEFAULTLIB
 "C:\Users\maxpi\Documents\GitHub\TechDemo4\TechDemo4proj\Intermediate\Build\Win64\TechDemo4projEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\Users\maxpi\Documents\GitHub\TechDemo4\TechDemo4proj\Intermediate\Build\Win64\UE4Editor\Development\TechDemo4proj\MyAnimInstance.cpp.obj"
+"C:\Users\maxpi\Documents\GitHub\TechDemo4\TechDemo4proj\Intermediate\Build\Win64\UE4Editor\Development\TechDemo4proj\PlayerCharacter.cpp.obj"
 "C:\Users\maxpi\Documents\GitHub\TechDemo4\TechDemo4proj\Intermediate\Build\Win64\UE4Editor\Development\TechDemo4proj\TechDemo4proj.cpp.obj"
 "C:\Users\maxpi\Documents\GitHub\TechDemo4\TechDemo4proj\Intermediate\Build\Win64\UE4Editor\Development\TechDemo4proj\TechDemo4projGameModeBase.cpp.obj"
+"C:\Users\maxpi\Documents\GitHub\TechDemo4\TechDemo4proj\Intermediate\Build\Win64\UE4Editor\Development\TechDemo4proj\MyAnimInstance.gen.cpp.obj"
+"C:\Users\maxpi\Documents\GitHub\TechDemo4\TechDemo4proj\Intermediate\Build\Win64\UE4Editor\Development\TechDemo4proj\PlayerCharacter.gen.cpp.obj"
 "C:\Users\maxpi\Documents\GitHub\TechDemo4\TechDemo4proj\Intermediate\Build\Win64\UE4Editor\Development\TechDemo4proj\TechDemo4proj.init.gen.cpp.obj"
 "C:\Users\maxpi\Documents\GitHub\TechDemo4\TechDemo4proj\Intermediate\Build\Win64\UE4Editor\Development\TechDemo4proj\TechDemo4projGameModeBase.gen.cpp.obj"
 "C:\Users\maxpi\Documents\GitHub\TechDemo4\TechDemo4proj\Intermediate\Build\Win64\UE4Editor\Development\TechDemo4proj\Default.rc2.res"
