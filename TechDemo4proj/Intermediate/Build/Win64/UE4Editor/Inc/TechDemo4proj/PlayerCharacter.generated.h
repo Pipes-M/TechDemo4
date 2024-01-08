@@ -59,6 +59,7 @@ public: \
 
 
 #define TechDemo4proj_Source_TechDemo4proj_PlayerCharacter_h_14_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__FireSound() { return STRUCT_OFFSET(APlayerCharacter, FireSound); } \
 	FORCEINLINE static uint32 __PPO__CameraBoom() { return STRUCT_OFFSET(APlayerCharacter, CameraBoom); } \
 	FORCEINLINE static uint32 __PPO__FollowCamera() { return STRUCT_OFFSET(APlayerCharacter, FollowCamera); } \
 	FORCEINLINE static uint32 __PPO__PersonJump() { return STRUCT_OFFSET(APlayerCharacter, PersonJump); }

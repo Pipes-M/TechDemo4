@@ -2,6 +2,10 @@
 
 
 #include "PlayerCharacter.h"
+#include "Sound/SoundBase.h"
+#include "Kismet/GameplayStatics.h"
+//#include "Blueprint/UserWidget.h"
+
 
 // Sets default values
 APlayerCharacter::APlayerCharacter()
@@ -26,6 +30,23 @@ void APlayerCharacter::BeginPlay()
 {
 	Super::BeginPlay();
 	OrigFOV = FollowCamera->FieldOfView;
+
+	/*if (HUDWidgetClass != nullptr)
+	{
+		UHUDWidget* HUD = CreateWidget<UHUDWidget>(GetWorld(), HUDWidgetClass);
+		if (HUD != nullptr)
+		{
+			HUD->AddToViewport();
+		}
+	}*/
+
+	/*if (HUDOverlayAsset)
+	{
+		HUDOverlay = CreateWidget<UUserWidget>(this, HUDOverlayAsset);
+	}
+	HUDOverlay->AddToViewport();
+	HUDOverlay->SetVisibility(ESlateVisibility::Visible);*/
+
 }
 
 // Called every frame
@@ -88,10 +109,22 @@ void APlayerCharacter::AimOut()
 
 void APlayerCharacter::Shoot()
 {
-
+	if (MagAmmo > 1)
+	{
+		if (FireSound != nullptr)
+		{
+			UGameplayStatics::PlaySoundAtLocation(this, FireSound, GetActorLocation());
+		}
+	}
+	MagAmmo -= 1;
 }
 
 void APlayerCharacter::Reload()
 {
-
+	if (ResAmmo >= 10)
+	{
+		MagAmmo = 10;
+		ResAmmo -= 10;
+	}
+	
 }

@@ -16,10 +16,20 @@ class TECHDEMO4PROJ_API APlayerCharacter : public ACharacter
 public:
 	// Sets default values for this character's properties
 	APlayerCharacter();
+	/*UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Widgets")
+	TSubclassOf<class UUserWidget> HUDOverlayAsset;
+
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Widgets")
+	UUserWidget* HUDOverlay;*/
+	/*UPROPERTY(EditDefaultsOnly, Category = "HUD")
+	TSubclassOf<UHUDWidget> HUDWidgetClass;*/
 
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Audio")
+	USoundBase* FireSound;
 
 public:	
 	// Called every frame
@@ -27,6 +37,10 @@ public:
 
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
+
+	float Health = 200;
+	int MagAmmo = 10;
+	int ResAmmo = 30;
 
 private:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
@@ -36,6 +50,7 @@ private:
 	UCameraComponent* FollowCamera;
 	
 	float OrigFOV;
+	
 	
 	void MoveForward(float AxisValue);
 	void MoveRight(float AxisValue);
@@ -48,9 +63,11 @@ private:
 	UPROPERTY(EditAnywhere)
 	UAnimationAsset* PersonJump;
 
-	// -- A reference to the mesh's Skeletal Mesh Component used for animating. -- //
+	
 	USkeletalMeshComponent* PersonSMC;
 
 	
+
+
 
 };
